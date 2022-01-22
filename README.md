@@ -1,7 +1,4 @@
-# capstone3!
-
-[primary-structure](https://user-images.githubusercontent.com/56170078/150651068-90c2f5be-79df-4d71-9a1f-3d8324974868.png)
-
+# Protein-Super-family-Classification
 
 Proteins are large, complex biomolecules that play an essential role in the body. Proteins are made 
 up of thousands of tiny units connected in a long chain called amino acids. Amino acids are simply 
@@ -10,6 +7,18 @@ acids that can be combined to form a protein. They are arranged randomly in sequ
 millions of unique proteins.
 
 
-This project aims to explore many machine learning and deep learning methods that can be used to classify 
-protein families. 
+This project explores many machine learning and deep learning methods that can be used to classify protein families. 
+
+The first part of the project uses physical and chemical properties of Protein to predict protein families using 3 different Machine Learning Modele (KNN, Decision Tree, Random Forest). 
+
+The Second part of the project utilizes amino acid sequences to classify protein families using two Deep Learning Sequential models (LSTM and BiLSTM). 
+
+
+The files should run in the following sequence:
+
+(1) data_wrangling-EDA_final.ipynb
+
+(2) model_ML_DL_final.ipynb
+
+Further, the 'Capstone 3 Report.pdf' provides a non-technical summary of this project.
 
